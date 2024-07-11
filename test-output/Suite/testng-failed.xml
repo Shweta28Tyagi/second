@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="reports.ExtentTestNGITestListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="APITestCase.ManageLead">
+        <methods>
+          <include name="GetLeadHistory"/>
+          <include name="MarkLeadAsStar"/>
+          <include name="UploadLeadAttachment"/>
+          <include name="UpdateLead"/>
+          <include name="GetStates"/>
+          <include name="MarkTaskAsCompleted"/>
+          <include name="RescheduleTask"/>
+          <include name="Login"/>
+          <include name="GetRequirement"/>
+          <include name="GetLeadActivity"/>
+          <include name="ExportLeads"/>
+          <include name="AddLead"/>
+          <include name="AddTaskForLead"/>
+          <include name="CheckLeadNumbers"/>
+          <include name="AddLeadActivity"/>
+          <include name="GetLeads"/>
+          <include name="DeleteAttachment"/>
+          <include name="GetLeadStage"/>
+          <include name="GetTaskByLeadId"/>
+          <include name="GetCity"/>
+          <include name="GetLeadTask"/>
+          <include name="GetLeadDetails"/>
+          <include name="UpdateLeadStage"/>
+        </methods>
+      </class> <!-- APITestCase.ManageLead -->
+      <class name="APITestCase.Login">
+        <methods>
+          <include name="UserProfile"/>
+          <include name="Logout"/>
+          <include name="CheckResetPassword"/>
+          <include name="ResetPassword"/>
+          <include name="OtpVerification"/>
+          <include name="Login"/>
+          <include name="LoginWithOtp"/>
+        </methods>
+      </class> <!-- APITestCase.Login -->
+      <class name="APITestCase.ManageUser">
+        <methods>
+          <include name="GetBranches"/>
+          <include name="UploadUserProfileImage"/>
+          <include name="ResendPassword"/>
+          <include name="RoleList"/>
+          <include name="Login"/>
+          <include name="AddUser"/>
+          <include name="ResetPassword"/>
+          <include name="ExportUser"/>
+          <include name="GetVendorCompany"/>
+          <include name="UpdateUser"/>
+          <include name="UsersCount"/>
+          <include name="GetUser"/>
+          <include name="UpdateUserStatus"/>
+        </methods>
+      </class> <!-- APITestCase.ManageUser -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
