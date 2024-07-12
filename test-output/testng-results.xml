@@ -1,188 +1,189 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="7" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="43" passed="43" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-11T17:57:43 IST" name="Default suite" finished-at="2024-07-11T17:57:45 IST" duration-ms="1635">
+  <suite started-at="2024-07-12T10:11:06 IST" name="Suite" finished-at="2024-07-12T10:11:21 IST" duration-ms="14653">
     <groups>
     </groups>
-    <test started-at="2024-07-11T17:57:43 IST" name="Default test" finished-at="2024-07-11T17:57:45 IST" duration-ms="1635">
+    <test started-at="2024-07-12T10:11:06 IST" name="Test" finished-at="2024-07-12T10:11:21 IST" duration-ms="14653">
+      <class name="APITestCase.ManageUser">
+        <test-method signature="Login()[pri:0, instance:APITestCase.ManageUser@7de843ef]" started-at="2024-07-12T10:11:10 IST" name="Login" finished-at="2024-07-12T10:11:10 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="AddUser()[pri:0, instance:APITestCase.ManageUser@7de843ef]" started-at="2024-07-12T10:11:10 IST" name="AddUser" finished-at="2024-07-12T10:11:10 IST" depends-on-methods="APITestCase.ManageUser.Login" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddUser -->
+        <test-method signature="ExportUser()[pri:0, instance:APITestCase.ManageUser@7de843ef]" started-at="2024-07-12T10:11:10 IST" name="ExportUser" finished-at="2024-07-12T10:11:11 IST" depends-on-methods="APITestCase.ManageUser.Login" duration-ms="473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExportUser -->
+        <test-method signature="GetBranches()[pri:0, instance:APITestCase.ManageUser@7de843ef]" started-at="2024-07-12T10:11:11 IST" name="GetBranches" finished-at="2024-07-12T10:11:11 IST" depends-on-methods="APITestCase.ManageUser.Login" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetBranches -->
+        <test-method signature="GetUser()[pri:0, instance:APITestCase.ManageUser@7de843ef]" started-at="2024-07-12T10:11:11 IST" name="GetUser" finished-at="2024-07-12T10:11:12 IST" depends-on-methods="APITestCase.ManageUser.AddUser" duration-ms="578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetUser -->
+        <test-method signature="GetVendorCompany()[pri:0, instance:APITestCase.ManageUser@7de843ef]" started-at="2024-07-12T10:11:12 IST" name="GetVendorCompany" finished-at="2024-07-12T10:11:12 IST" depends-on-methods="APITestCase.ManageUser.Login" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetVendorCompany -->
+        <test-method signature="ResendPassword()[pri:0, instance:APITestCase.ManageUser@7de843ef]" started-at="2024-07-12T10:11:12 IST" name="ResendPassword" finished-at="2024-07-12T10:11:12 IST" depends-on-methods="APITestCase.ManageUser.Login" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResendPassword -->
+        <test-method signature="ResetPassword()[pri:0, instance:APITestCase.ManageUser@7de843ef]" started-at="2024-07-12T10:11:12 IST" name="ResetPassword" finished-at="2024-07-12T10:11:12 IST" depends-on-methods="APITestCase.ManageUser.Login" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResetPassword -->
+        <test-method signature="RoleList()[pri:0, instance:APITestCase.ManageUser@7de843ef]" started-at="2024-07-12T10:11:12 IST" name="RoleList" finished-at="2024-07-12T10:11:13 IST" depends-on-methods="APITestCase.ManageUser.Login" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RoleList -->
+        <test-method signature="UpdateUser()[pri:0, instance:APITestCase.ManageUser@7de843ef]" started-at="2024-07-12T10:11:13 IST" name="UpdateUser" finished-at="2024-07-12T10:11:13 IST" depends-on-methods="APITestCase.ManageUser.Login" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateUser -->
+        <test-method signature="UpdateUserStatus()[pri:0, instance:APITestCase.ManageUser@7de843ef]" started-at="2024-07-12T10:11:13 IST" name="UpdateUserStatus" finished-at="2024-07-12T10:11:13 IST" depends-on-methods="APITestCase.ManageUser.Login" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateUserStatus -->
+        <test-method signature="UploadUserProfileImage()[pri:0, instance:APITestCase.ManageUser@7de843ef]" started-at="2024-07-12T10:11:13 IST" name="UploadUserProfileImage" finished-at="2024-07-12T10:11:13 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UploadUserProfileImage -->
+        <test-method signature="UsersCount()[pri:0, instance:APITestCase.ManageUser@7de843ef]" started-at="2024-07-12T10:11:13 IST" name="UsersCount" finished-at="2024-07-12T10:11:14 IST" depends-on-methods="APITestCase.ManageUser.Login" duration-ms="466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsersCount -->
+      </class> <!-- APITestCase.ManageUser -->
       <class name="APITestCase.Login">
-        <test-method signature="Logout()[pri:0, instance:APITestCase.Login@2aceadd4]" started-at="2024-07-11T17:57:43 IST" name="Logout" finished-at="2024-07-11T17:57:45 IST" duration-ms="1586" status="FAIL">
-          <exception class="javax.net.ssl.SSLHandshakeException">
-            <message>
-              <![CDATA[PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[javax.net.ssl.SSLHandshakeException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
-at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:131)
-at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:378)
-at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:321)
-at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:316)
-at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1351)
-at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1226)
-at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1169)
-at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396)
-at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480)
-at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458)
-at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:201)
-at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172)
-at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1506)
-at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1421)
-at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455)
-at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426)
-at org.apache.http.conn.ssl.SSLSocketFactory.createLayeredSocket(SSLSocketFactory.java:570)
-at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:554)
-at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:415)
-at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
-at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
-at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
-at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
-at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-at io.restassured.internal.RestAssuredHttpBuilder.doRequest(RestAssuredHttpBuilder.java:141)
-at io.restassured.internal.http.HTTPBuilder.post(HTTPBuilder.java:349)
-at io.restassured.internal.http.HTTPBuilder$post$2.call(Unknown Source)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:148)
-at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1209)
-at io.restassured.internal.RequestSpecificationImpl.this$2$sendRequest(RequestSpecificationImpl.groovy)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
-at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
-at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1334)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1089)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1008)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:791)
-at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
-at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
-at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
-at io.restassured.filter.Filter$filter.call(Unknown Source)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
-at io.restassured.filter.Filter$filter$0.call(Unknown Source)
-at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
-at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
-at io.restassured.filter.Filter$filter$0.call(Unknown Source)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
-at io.restassured.filter.Filter$filter.call(Unknown Source)
-at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
-at io.restassured.filter.FilterContext$next.call(Unknown Source)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:148)
-at io.restassured.internal.filter.CsrfFilter.filter(CsrfFilter.groovy:70)
-at io.restassured.filter.Filter$filter.call(Unknown Source)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:157)
-at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
-at io.restassured.filter.FilterContext$next.call(Unknown Source)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:148)
-at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1704)
-at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
-at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
-at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1334)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1089)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1008)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:791)
-at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
-at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
-at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
-at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1710)
-at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
-at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
-at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1334)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1089)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1008)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:791)
-at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
-at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
-at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
-at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:176)
-at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy)
-at APITestCase.Login.Logout(Login.java:238)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
-at java.base/sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:369)
-at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:275)
-at java.base/sun.security.validator.Validator.validate(Validator.java:264)
-at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231)
-at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132)
-at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1335)
-... 134 more
-Caused by: java.security.cert.CertPathValidatorException: validity check failed
-at java.base/sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:135)
-at java.base/sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:224)
-at java.base/sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:144)
-at java.base/sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:83)
-at java.base/java.security.cert.CertPathValidator.validate(CertPathValidator.java:309)
-at java.base/sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:364)
-... 139 more
-Caused by: java.security.cert.CertificateExpiredException: NotAfter: Thu Jul 11 15:26:04 IST 2024
-at java.base/sun.security.x509.CertificateValidity.valid(CertificateValidity.java:277)
-at java.base/sun.security.x509.X509CertImpl.checkValidity(X509CertImpl.java:629)
-at java.base/sun.security.provider.certpath.BasicChecker.verifyValidity(BasicChecker.java:190)
-at java.base/sun.security.provider.certpath.BasicChecker.check(BasicChecker.java:144)
-at java.base/sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:125)
-... 144 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- javax.net.ssl.SSLHandshakeException -->
+        <test-method signature="Login()[pri:0, instance:APITestCase.Login@38afe297]" started-at="2024-07-12T10:11:06 IST" name="Login" finished-at="2024-07-12T10:11:09 IST" duration-ms="2338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Logout()[pri:0, instance:APITestCase.Login@38afe297]" started-at="2024-07-12T10:11:09 IST" name="Logout" finished-at="2024-07-12T10:11:09 IST" duration-ms="163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logout -->
+        <test-method signature="LoginWithOtp()[pri:1, instance:APITestCase.Login@38afe297]" started-at="2024-07-12T10:11:09 IST" name="LoginWithOtp" finished-at="2024-07-12T10:11:09 IST" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithOtp -->
+        <test-method signature="OtpVerification()[pri:2, instance:APITestCase.Login@38afe297]" started-at="2024-07-12T10:11:09 IST" name="OtpVerification" finished-at="2024-07-12T10:11:09 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OtpVerification -->
+        <test-method signature="ResetPassword()[pri:3, instance:APITestCase.Login@38afe297]" started-at="2024-07-12T10:11:09 IST" name="ResetPassword" finished-at="2024-07-12T10:11:09 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResetPassword -->
+        <test-method signature="CheckResetPassword()[pri:0, instance:APITestCase.Login@38afe297]" started-at="2024-07-12T10:11:09 IST" name="CheckResetPassword" finished-at="2024-07-12T10:11:10 IST" depends-on-methods="APITestCase.Login.ResetPassword" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckResetPassword -->
+        <test-method signature="UserProfile()[pri:4, instance:APITestCase.Login@38afe297]" started-at="2024-07-12T10:11:10 IST" name="UserProfile" finished-at="2024-07-12T10:11:10 IST" depends-on-methods="APITestCase.Login.Login" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserProfile -->
       </class> <!-- APITestCase.Login -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="APITestCase.ManageLead">
+        <test-method signature="Login()[pri:0, instance:APITestCase.ManageLead@7c9beb51]" started-at="2024-07-12T10:11:14 IST" name="Login" finished-at="2024-07-12T10:11:14 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="AddLead()[pri:0, instance:APITestCase.ManageLead@7c9beb51]" started-at="2024-07-12T10:11:14 IST" name="AddLead" finished-at="2024-07-12T10:11:14 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddLead -->
+        <test-method signature="AddLeadActivity()[pri:0, instance:APITestCase.ManageLead@7c9beb51]" started-at="2024-07-12T10:11:14 IST" name="AddLeadActivity" finished-at="2024-07-12T10:11:14 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddLeadActivity -->
+        <test-method signature="AddTaskForLead()[pri:0, instance:APITestCase.ManageLead@7c9beb51]" started-at="2024-07-12T10:11:14 IST" name="AddTaskForLead" finished-at="2024-07-12T10:11:15 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddTaskForLead -->
+        <test-method signature="CheckLeadNumbers()[pri:0, instance:APITestCase.ManageLead@7c9beb51]" started-at="2024-07-12T10:11:15 IST" name="CheckLeadNumbers" finished-at="2024-07-12T10:11:15 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLeadNumbers -->
+        <test-method signature="DeleteAttachment()[pri:0, instance:APITestCase.ManageLead@7c9beb51]" started-at="2024-07-12T10:11:15 IST" name="DeleteAttachment" finished-at="2024-07-12T10:11:15 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteAttachment -->
+        <test-method signature="ExportLeads()[pri:0, instance:APITestCase.ManageLead@7c9beb51]" started-at="2024-07-12T10:11:15 IST" name="ExportLeads" finished-at="2024-07-12T10:11:17 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="1652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExportLeads -->
+        <test-method signature="GetCity()[pri:0, instance:APITestCase.ManageLead@7c9beb51]" started-at="2024-07-12T10:11:17 IST" name="GetCity" finished-at="2024-07-12T10:11:17 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetCity -->
+        <test-method signature="GetLeadActivity()[pri:0, instance:APITestCase.ManageLead@7c9beb51]" started-at="2024-07-12T10:11:17 IST" name="GetLeadActivity" finished-at="2024-07-12T10:11:17 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetLeadActivity -->
+        <test-method signature="GetLeadDetails()[pri:0, instance:APITestCase.ManageLead@7c9beb51]" started-at="2024-07-12T10:11:17 IST" name="GetLeadDetails" finished-at="2024-07-12T10:11:17 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetLeadDetails -->
+        <test-method signature="GetLeadHistory()[pri:0, instance:APITestCase.ManageLead@7c9beb51]" started-at="2024-07-12T10:11:17 IST" name="GetLeadHistory" finished-at="2024-07-12T10:11:17 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetLeadHistory -->
+        <test-method signature="GetLeadStage()[pri:0, instance:APITestCase.ManageLead@7c9beb51]" started-at="2024-07-12T10:11:17 IST" name="GetLeadStage" finished-at="2024-07-12T10:11:17 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetLeadStage -->
+        <test-method signature="GetLeadTask()[pri:0, instance:APITestCase.ManageLead@7c9beb51]" started-at="2024-07-12T10:11:17 IST" name="GetLeadTask" finished-at="2024-07-12T10:11:18 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetLeadTask -->
+        <test-method signature="GetLeads()[pri:0, instance:APITestCase.ManageLead@7c9beb51]" started-at="2024-07-12T10:11:18 IST" name="GetLeads" finished-at="2024-07-12T10:11:19 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="1633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetLeads -->
+        <test-method signature="GetRequirement()[pri:0, instance:APITestCase.ManageLead@7c9beb51]" started-at="2024-07-12T10:11:19 IST" name="GetRequirement" finished-at="2024-07-12T10:11:19 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetRequirement -->
+        <test-method signature="GetStates()[pri:0, instance:APITestCase.ManageLead@7c9beb51]" started-at="2024-07-12T10:11:19 IST" name="GetStates" finished-at="2024-07-12T10:11:19 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetStates -->
+        <test-method signature="GetTaskByLeadId()[pri:0, instance:APITestCase.ManageLead@7c9beb51]" started-at="2024-07-12T10:11:19 IST" name="GetTaskByLeadId" finished-at="2024-07-12T10:11:20 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetTaskByLeadId -->
+        <test-method signature="MarkLeadAsStar()[pri:0, instance:APITestCase.ManageLead@7c9beb51]" started-at="2024-07-12T10:11:20 IST" name="MarkLeadAsStar" finished-at="2024-07-12T10:11:20 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MarkLeadAsStar -->
+        <test-method signature="MarkTaskAsCompleted()[pri:0, instance:APITestCase.ManageLead@7c9beb51]" started-at="2024-07-12T10:11:20 IST" name="MarkTaskAsCompleted" finished-at="2024-07-12T10:11:20 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MarkTaskAsCompleted -->
+        <test-method signature="RescheduleTask()[pri:0, instance:APITestCase.ManageLead@7c9beb51]" started-at="2024-07-12T10:11:20 IST" name="RescheduleTask" finished-at="2024-07-12T10:11:20 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RescheduleTask -->
+        <test-method signature="UpdateLead()[pri:0, instance:APITestCase.ManageLead@7c9beb51]" started-at="2024-07-12T10:11:20 IST" name="UpdateLead" finished-at="2024-07-12T10:11:20 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateLead -->
+        <test-method signature="UpdateLeadStage()[pri:0, instance:APITestCase.ManageLead@7c9beb51]" started-at="2024-07-12T10:11:20 IST" name="UpdateLeadStage" finished-at="2024-07-12T10:11:21 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateLeadStage -->
+        <test-method signature="UploadLeadAttachment()[pri:0, instance:APITestCase.ManageLead@7c9beb51]" started-at="2024-07-12T10:11:21 IST" name="UploadLeadAttachment" finished-at="2024-07-12T10:11:21 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UploadLeadAttachment -->
+      </class> <!-- APITestCase.ManageLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
